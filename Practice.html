@@ -1,49 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Claremont Greenshirts</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-        <link rel="manifest" href="images/site.webmanifest">
-        <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
-        <link rel="stylesheet" href="mystyle.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Page Title -->
+    <title>Claremont Greenshirts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="boot.css">
+<!-- favicon -->
+    <link rel="icon" type="image/x-con" href="images/favicon.ico">
 </head>
-    </head>
 
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <div class="go-left">
-                        <li class="circle-logo"><a href="images/circle.png">Greenshirts Logo</a></li>
-                        <li class="logo"><a href="index.html">Claremont Greenshirts</a></li>
-                    </div>
-                    <div class="go-right">
-                        <li class="nav-link"><a href="About.html">About</a></li>
-                        <li class="nav-link"><a href="Practice.html">Practice Schedule</a></li>
-                        <li class="nav-link"><a href="Roster.html">Roster</a></li>
-                        <li class="nav-link"><a href="Contact.html">Contact</a></li>
-                    </div>
+
+<body>
+<!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg nav-padding py-lg-2 py-1 navbar-color">
+        <div class="container">
+            <a href="index.html"><img class="circle-logo me-md-2" src="images/circle.png" alt="Greenshirts Circle Logo"></a>
+            <a href="index.html"><img class="word-logo d-flex flex-shrink-1 me-lg-0 me-md-3" src="images/logo.png" alt="Greenshirts Logo"></a>
+            <button class="navbar-toggler navbar-dark" data-bs-toggle="collapse"
+            data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pb-lg-0 pb-4" id="nav">
+                <ul class="navbar-nav ms-auto nav-push-down">
+                    <li class="nav-item px-0 px-lg-3">
+                        <a href="index.html" class="nav-link nav-link-edit" aria-current="page">Home</a>
+                    </li>
+                    <!-- current page - PRACTICE -->
+                    <li class="nav-item px-0 px-lg-3">
+                        <a href="Practice.html" class="current nav-link nav-link-edit" aria-current="page">Practice</a>
+                    </li>
+                    <li class="nav-item px-0 px-lg-3">
+                        <a href="Roster.html" class="nav-link nav-link-edit" aria-current="page">Roster</a>
+                    </li>
+                    <li class="nav-item px-0 px-lg-3">
+                        <a href="Photos.html" class="nav-link nav-link-edit" aria-current="page">Photos</a>
+                    </li>
+                    <li class="nav-item px-0 px-lg-3">
+                        <a href="Contact.html" class="nav-link nav-link-edit" aria-current="page">Contact</a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
+            </div>
 
-        <div class="row">
-            <section class="col">Section1</section>
-            <section class="col">Section2</section>
-            <section class="col">Section3</section>
         </div>
-        <section class="bot">
-            Bottom section
-        </section>
-        <button>Button!</button>
+    </nav>
 
-        <footer>
-            <h3>The Greens</h3>
-        </footer>
+<!-- socials bars -->
+    <div class="socials-box d-lg-block d-none">
+        <a href="https://twitter.com/claremontgreens"><img class="socials-logo" src="images/twitter.png" alt="Twitter Logo to Greenshirts Twitter"></a>
+        <a href="https://www.instagram.com/therealgreenshirts/?hl=en"><img class="socials-logo" src="images/instagram.png" alt="Instagram Logo to Greenshirts Instagram"></a>
+    </div>
+    <div class="socials-box-2 d-lg-none d-block">
+        <a href="https://twitter.com/claremontgreens"><img class="socials-logo" src="images/twitter.png" alt="Twitter Logo to Greenshirts Twitter"></a>
+        <a href="https://www.instagram.com/therealgreenshirts/?hl=en"><img class="socials-logo" src="images/instagram.png" alt="Instagram Logo to Greenshirts Instagram"></a>
+    </div>
 
-    </body>
+<!-- content -->
+    <!-- content container -->
+    <div class="container py-4">
+        <div class="card border-0">
+            <div class="card-body">
+                <h1 class="card-title front-header greens-color">Practice</h1>
+                <!-- <span class="card-subtitle">About the Team!</span> -->
+                <div class="card-text buffer-text">
+                    &emsp; We practice 3 times a week! Most semesters our practice schedule is Monday, Wednesday, Sunday 5:00-7:00pm, though this varies some semesters based on availability of field space. Follow our instagram to stay updated on the schedule for this upcoming Fall 2023 semester!
+                    <br><br>&emsp; Greens get to determine their own level of commitment. This means that lots of Greens come to every practice (it’s just so fun and awesome) but others can only make it once or twice a week (or just every now and then!) and that’s totally okay! We recognize that everyone has other demands in life, so feel comfortable only committing what you have capacity for!
+                </div>
+            </div>
+        </div>
+            <!-- big team pic -->
+    <div><img src="images/practicecrop.JPG" class="img-fluid" alt="Greenshirts team picture"></div>
+    </div>
+
+<!-- footer -->
+    <footer>
+        <div class="footer-text-left">
+            Claremont Greenshirts 2023
+        </div>
+    </footer>
+</body>
 </html>
