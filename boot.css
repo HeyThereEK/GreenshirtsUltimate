@@ -32,7 +32,7 @@ nav .navbar-nav li a.current {
     color: rgb(190, 219, 216);
 }
 
-a:hover {
+.navbar a:hover {
     color: rgb(12, 31, 27) !important;
     /* color: rgb(55, 111, 109) !important; */
 }
@@ -93,6 +93,11 @@ a:hover {
     height: 30px;
 }
 
+.socials-logo-2 {
+    padding: 0 5px 5px 5px;
+    height: 40px;
+}
+
 .front-header {
     font-weight: 900;
     text-align: center;
@@ -101,6 +106,7 @@ a:hover {
 
 .greens-color {
     color: rgb(54, 80, 77);
+    /* color: rgb(13, 70, 92); */
 }
 
 .buffer-text {
@@ -114,19 +120,125 @@ a:hover {
 
 footer {
     background-color: rgb(34, 51, 49);
-    padding: 30px 20px 10px 20px;
+    /* padding: 30px 20px 10px 20px; */
+    padding: 43px 20px 10px 20px;
+    margin: 0;
     color: aliceblue;
     display: flex;
 }
 
-footer-text-left {
-    width: 33.33333%;
+.footer-text-left {
+    /* width: 35%; */
     text-align: left;
 }
 
-footer-text-right {
-    width: 33.33333%;
+.footer-text-right {
+    width: 50%;
     text-align: right;
+}
+
+.box {
+    width: 300px;
+    /* background-color: lightblue;
+    border: 1px solid blue; */
+    min-height: 50px;
+    font-size: 2rem;
+  }
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color:rgb(115, 163, 158);
+    border: 1px solid blue */
+}
+
+.flex-container-vert-1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color:rgb(191, 211, 189);
+    border: 1px solid rgb(0, 255, 0) */
+}
+
+.flex-container-vert-2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    /* background-color:rgb(191, 211, 189);
+    border: 1px solid rgb(0, 255, 0) */
+}
+
+
+.flex-item {
+    /* background-color: rgb(204, 219, 224);
+    border: 1px solid red; */
+    font-size: 20px;
+}
+
+.space-even {
+    justify-content: space-evenly;
+}
+
+.space-bet {
+    justify-content: space-between;
+}
+
+.top-padding {
+    padding: 20px 0 0 0;
+}
+
+.bottom-padding {
+    padding: 0 0 20px 0;
+}
+
+.page-title {
+    font-size: 35px;
+    color: rgb(13, 70, 92);
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.box-text {
+    font-size: 3
+}
+
+.text-color-light {
+    color: rgb(25, 98, 90);
+}
+
+.text-color-dark {
+    color: rgb(13, 70, 92);
+}
+
+.img-flex {
+    width: 60vw;
+    max-width: 500px;
+}
+
+.min-width-pls {
+    min-width: 200px;
+}
+
+.text-muted {
+    opacity: 70%;
+}
+
+.flex-item a:link {
+    color: rgb(25, 98, 90);
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: rgb(4, 61, 59);
+    text-decoration: none;
+}
+
+.min-height-full {
+    min-height: 100vh;
 }
 
 /* .nav-padding {
