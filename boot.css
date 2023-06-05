@@ -22,6 +22,7 @@
 
 .navbar-color {
     background-color: rgb(34, 51, 49);
+    /* background-color: rgb(13, 70, 92); */
 }
 
 nav .navbar-nav li a{
@@ -42,20 +43,32 @@ nav .navbar-nav li a.current {
     top: 20px;
 }
 
-.nav-link-edit {
+.nav-flex {
+    align-items: center;
+}
+
+.navbar-nav {
+    text-align: end;
+    padding: 0 20px 0 0
+}
+
+.nav-link {
     font-size: 22px;
-    /* margin: 0 10px */
 }
 
 .circle-logo {
-    height: 92px;
+    max-height: 92px;
+    min-width: 50px;
+    flex: auto;
     /* position:relative;
     top: -15px; */
     /* margin: 0 10px 0 0 */
 }
 
 .word-logo {
-    height: 70px;
+    max-height: 65px;
+    min-width: 50px;
+    flex: auto;
     /* position: relative;
     top: -15px; */
 }
@@ -120,11 +133,18 @@ nav .navbar-nav li a.current {
 
 footer {
     background-color: rgb(34, 51, 49);
-    /* padding: 30px 20px 10px 20px; */
-    padding: 43px 20px 10px 20px;
-    margin: 0;
     color: aliceblue;
-    display: flex;
+}
+
+.footer-desktop {
+    padding: 30px 20px 10px 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.footer-mobile {
+    padding: 10px 10px 8px 15px;
+    text-align: left;
 }
 
 .footer-text-left {
@@ -154,6 +174,26 @@ footer {
     border: 1px solid blue */
 }
 
+.flex-container-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    /* background-color:rgb(115, 163, 158);
+    border: 1px solid blue; */
+    max-height: 100px;
+    align-items: baseline;
+}
+
+.flex-container-nav-2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:rgb(115, 163, 158);
+    border: 1px solid blue */
+}
+
 .flex-container-vert-1 {
     display: flex;
     flex-flow: column wrap;
@@ -167,7 +207,7 @@ footer {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     /* background-color:rgb(191, 211, 189);
     border: 1px solid rgb(0, 255, 0) */
 }
@@ -178,6 +218,11 @@ footer {
     border: 1px solid red; */
     font-size: 20px;
 }
+
+/* .flex-item-button {
+    background-color: rgb(204, 219, 224);
+    border: 1px solid red; 
+} */
 
 .space-even {
     justify-content: space-evenly;
@@ -239,6 +284,49 @@ footer {
 
 .min-height-full {
     min-height: 100vh;
+}
+
+.right-float {
+    float: right;
+}
+
+.nav-no-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.ros-pic {
+    max-width: 75%; 
+    height: auto; 
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.118), 0 6px 20px 0 rgba(0, 0, 0, 0.107);
+}
+
+.container .col-auto .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.118);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.118), 0 6px 20px 0 rgba(0, 0, 0, 0.107); */
+}
+
+.text-on-img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-on-img {
+    position: absolute;
+    top: 8vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5vw;
+    font-weight: 900;
+    letter-spacing: 0.5vw;
+
 }
 
 /* .nav-padding {
