@@ -15,38 +15,69 @@
 
 
 <body>
-<!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg nav-padding py-lg-2 py-1 navbar-color">
-        <div class="container">
-            <a href="index.html"><img class="circle-logo me-md-2" src="images/circle.png" alt="Greenshirts Circle Logo"></a>
-            <a href="index.html"><img class="word-logo d-flex flex-shrink-1 me-lg-0 me-md-3" src="images/logo.png" alt="Greenshirts Logo"></a>
-            <button class="navbar-toggler navbar-dark" data-bs-toggle="collapse"
-            data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse pb-lg-0 pb-4" id="nav">
-                <ul class="navbar-nav ms-auto nav-push-down">
-                    <!-- current page - INDEX -->
-                    <li class="nav-item px-0 px-lg-3">
-                        <a href="index.html" class="current nav-link nav-link-edit" aria-current="page">Home</a>
-                    </li>
-                    <li class="nav-item px-0 px-lg-3">
-                        <a href="Practice.html" class="nav-link nav-link-edit" aria-current="page">Practice</a>
-                    </li>
-                    <li class="nav-item px-0 px-lg-3">
-                        <a href="Roster.html" class="nav-link nav-link-edit" aria-current="page">Roster</a>
-                    </li>
-                    <li class="nav-item px-0 px-lg-3">
-                        <a href="Photos.html" class="nav-link nav-link-edit" aria-current="page">Photos</a>
-                    </li>
-                    <li class="nav-item px-0 px-lg-3">
-                        <a href="Contact.html" class="nav-link nav-link-edit" aria-current="page">Contact</a>
-                    </li>
-                </ul>
-            </div>
-
+<!-- navigation bar (mobile) -->
+<nav class="navbar navbar-dark navbar-expand-lg navbar-color justify-content-evenly d-lg-none">
+    <a href="index.html" class="navbar-item d-flex">
+        <img style="max-height: 73px; width: auto;" src="images/circle.png" alt=""></a>
+    <a href="index.html" class="navbar-item d-flex">
+        <img style="max-height: 50px; width: auto;" src="images/logo.png" alt=""></a>
+    <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="navbar-collapse collapse" id="collapsingNavbar3">
+            <ul class="nav navbar-nav w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="current nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Practice.html">Practice</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Roster.html">Roster</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Support.html">Support Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+</nav>
+
+<!-- navigation bar (desktop) -->
+<nav class="navbar navbar-expand-lg nav-padding py-lg-2 py-1 navbar-color d-lg-flex d-none">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="index.html"><img class="circle-logo" src="images/circle.png" alt="Greenshirts Circle Logo"></a>
+        </div>
+        <a href="index.html"><img class="word-logo" src="images/logo.png" alt="Greenshirts Logo"></a>
+        <button class="navbar-toggler navbar-dark mx-1 px-1" data-bs-toggle="collapse"
+        data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pb-lg-0 pb-4 nav-no-wrap" id="nav">
+            <ul class="navbar-nav ms-auto nav-push-down dropdown-menu-end whitespace-nowrap">
+                <!-- current page - INDEX -->
+                <li class="nav-item pe-xl-3 px-2">
+                    <a href="index.html" class="current nav-link" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item px-xl-3 px-2">
+                    <a href="Practice.html" class="nav-link" aria-current="page">Practice</a>
+                </li>
+                <li class="nav-item px-xl-3 px-2">
+                    <a href="Roster.html" class="nav-link" aria-current="page">Roster</a>
+                </li>
+                <li class="nav-item px-xl-3 px-2">
+                    <a href="Support.html" class="nav-link" aria-current="page">Support Us</a>
+                </li>
+                <li class="nav-item ps-xl-3 ps-2">
+                    <a href="Contact.html" class="nav-link" aria-current="page">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 <!-- socials bars -->
     <div class="socials-box d-lg-block d-none">
@@ -63,7 +94,7 @@
     <div class="alert alert-warning">Website in-progress! Please bear with us!</div>
     <div><img src="images/teamcrop.jpg" class="img-fluid" alt="Greenshirts team picture"></div>
     <!-- content container -->
-    <div class="container py-4">
+    <div class="container py-lg-4 py-2">
         <div class="card border-0">
             <div class="card-body">
                 <h1 class="card-title front-header greens-color">Claremont Greenshirts</h1>
@@ -87,9 +118,13 @@
         </div>
     </div>
 
-<!-- footer -->
     <footer>
-        <div class="footer-text-left">
+        <!-- footer (mobile)-->
+        <div class="footer-mobile d-lg-none d-flex">
+            Claremont Greenshirts 2023
+        </div>
+        <!-- footer (desktop)-->
+        <div class="footer-desktop d-lg-flex d-none">
             Claremont Greenshirts 2023
         </div>
     </footer>
