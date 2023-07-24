@@ -21,8 +21,11 @@
 } */
 
 .navbar-color {
-    background-color: rgb(34, 51, 49);
+    /* background-color: rgb(34, 51, 49); */
     /* background-color: rgb(13, 70, 92); */
+    /* background-color: rgb(4, 69, 62); */
+    /* background-color: rgb(40, 62, 81); */
+    background-color: rgb(31, 50, 65);
 }
 
 nav .navbar-nav li a{
@@ -74,7 +77,8 @@ nav .navbar-nav li a.current {
 }
 
 .socials-box {
-    background-color: rgb(55, 111, 109);
+    /* background-color: rgb(55, 111, 109); */
+    background-color: rgb(31, 50, 65);
     padding: 10px;
     text-align: center;
     display: inline-block;
@@ -88,7 +92,8 @@ nav .navbar-nav li a.current {
 }
 
 .socials-box-2 {
-    background-color: rgb(55, 111, 109);
+    /* background-color: rgb(55, 111, 109); */
+    background-color: rgb(31, 50, 65);
     padding: 10px;
     text-align: center;
     display: inline-block;
@@ -118,8 +123,11 @@ nav .navbar-nav li a.current {
 }
 
 .greens-color {
-    color: rgb(54, 80, 77);
+    /* color: rgb(54, 80, 77); */
     /* color: rgb(13, 70, 92); */
+    /* color: rgb(4, 69, 62); */
+    color: rgb(31, 50, 65);
+    /* color: rgb(31, 50, 65); */
 }
 
 .buffer-text {
@@ -128,11 +136,14 @@ nav .navbar-nav li a.current {
 }
 
 .buffer-text a {
-    color: rgb(115, 163, 158);
+    /* color: rgb(115, 163, 158); */
+    color: rgb(115, 141, 163);
 }
 
 footer {
-    background-color: rgb(34, 51, 49);
+    /* background-color: rgb(34, 51, 49); */
+    /* background-color: rgb(4, 69, 62); */
+    background-color: rgb(40, 62, 81);
     color: aliceblue;
 }
 
@@ -157,12 +168,14 @@ footer {
     text-align: right;
 }
 
+/* start */
+
 .box {
     width: 300px;
-    /* background-color: lightblue;
-    border: 1px solid blue; */
     min-height: 50px;
     font-size: 2rem;
+    /* background-color: lightblue;
+    border: 1px solid blue; */
   }
 
 .flex-container {
@@ -171,7 +184,7 @@ footer {
     justify-content: center;
     align-items: center;
     /* background-color:rgb(115, 163, 158);
-    border: 1px solid blue */
+    border: 1px solid blue; */
 }
 
 .flex-container-nav {
@@ -179,10 +192,10 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-between;
     padding: 0 20px;
-    /* background-color:rgb(115, 163, 158);
-    border: 1px solid blue; */
     max-height: 100px;
     align-items: baseline;
+    /* background-color:rgb(115, 163, 158);
+    border: 1px solid blue; */
 }
 
 .flex-container-nav-2 {
@@ -191,7 +204,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     /* background-color:rgb(115, 163, 158);
-    border: 1px solid blue */
+    border: 1px solid blue; */
 }
 
 .flex-container-vert-1 {
@@ -200,7 +213,7 @@ footer {
     justify-content: center;
     align-items: center;
     /* background-color:rgb(191, 211, 189);
-    border: 1px solid rgb(0, 255, 0) */
+    border: 1px solid rgb(0, 255, 0); */
 }
 
 .flex-container-vert-2 {
@@ -209,15 +222,28 @@ footer {
     justify-content: center;
     align-items: center;
     /* background-color:rgb(191, 211, 189);
-    border: 1px solid rgb(0, 255, 0) */
+    border: 1px solid rgb(0, 255, 0); */
+}
+
+.flex-container-vert-3 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    /* background-color:rgb(191, 211, 189);
+    border: 1px solid rgb(0, 255, 0); */
 }
 
 
 .flex-item {
+    font-size: 20px;
     /* background-color: rgb(204, 219, 224);
     border: 1px solid red; */
-    font-size: 20px;
 }
+
+/* end */
+
 
 /* .flex-item-button {
     background-color: rgb(204, 219, 224);
@@ -242,9 +268,28 @@ footer {
 
 .page-title {
     font-size: 35px;
-    color: rgb(13, 70, 92);
+    /* color: rgb(13, 70, 92); */
+    /* color: rgb(54, 80, 77); */
+    /* color: rgb(31, 50, 65); */
+    color: rgb(40, 62, 81);
     font-weight: 900;
     letter-spacing: 2px;
+}
+
+.my-card-title {
+    font-size: 20px;
+    /* color: rgb(54, 80, 77); */
+    /* color: rgb(4, 69, 62); */
+    color: rgb(40, 62, 81);
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-card-text {
+    /* color:rgb(34, 51, 49) */
+    color: rgb(47, 77, 103);
 }
 
 .box-text {
@@ -259,9 +304,18 @@ footer {
     color: rgb(13, 70, 92);
 }
 
+/* .more-container-color {
+    background-color: rgb(239, 239, 239);
+} */
+
+.more-card:hover {
+    /* background-color: rgb(239, 246, 242); */
+    background-color: rgb(248, 248, 248);
+}
+
 .img-flex {
-    width: 60vw;
-    max-width: 500px;
+    /* width: 60vw; */
+    max-width: 450px;
 }
 
 .min-width-pls {
@@ -273,7 +327,14 @@ footer {
 }
 
 .flex-item a:link {
-    color: rgb(25, 98, 90);
+    /* color: rgb(25, 98, 90); */
+    color: rgb(49, 93, 114);
+    text-decoration: none;
+}
+
+.flex-item a {
+    /* color: rgb(25, 98, 90); */
+    color: rgb(25, 66, 98);
     text-decoration: none;
 }
 
@@ -303,7 +364,7 @@ footer {
     max-width: 75%; 
     height: auto; 
     margin-top: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.118), 0 6px 20px 0 rgba(0, 0, 0, 0.107);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.118), 0 6px 20px 0 rgba(0, 0, 0, 0.107); */
 }
 
 .container .col-auto .card {
