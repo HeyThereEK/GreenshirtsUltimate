@@ -1,9 +1,12 @@
-.navbar-color {
-    /* background-color: rgb(34, 51, 49); */
-    /* background-color: rgb(13, 70, 92); */
-    /* background-color: rgb(4, 69, 62); */
-    /* background-color: rgb(40, 62, 81); */
-    background-color: rgb(31, 50, 65);
+/* Color  */
+
+.backg-color {
+    /* background-color: rgb(31, 50, 65); */
+    background-color: rgb(18, 33, 46);
+}
+
+.greens-color {
+    color: rgb(40, 62, 81);
 }
 
 nav .navbar-nav li a{
@@ -11,21 +14,141 @@ nav .navbar-nav li a{
 }
 
 nav .navbar-nav li a.current {
-    color: rgb(190, 219, 216);
+    color: rgb(181, 213, 210);
 }
 
 .navbar a:hover {
-    color: rgb(12, 31, 27) !important;
-    /* color: rgb(55, 111, 109) !important; */
+    /* color: rgb(12, 31, 27) !important; */
+    color: rgb(122, 161, 189) !important;
 }
+
+.about-card-text a {
+    color: rgb(122, 161, 189);
+}
+
+
+/* Text Customization */
+
+.front-header {
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 3px;
+    color: aliceblue;
+}
+
+.page-title {
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    /* color: rgb(40, 62, 81); */
+    color: aliceblue;
+}
+
+.page-title-2 {
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.about-card-text {
+    padding: 18px 10% 10px 10%;
+    font-size: 20px;
+    color: rgb(200, 213, 225);
+}
+
+.my-card-title {
+    font-size: 20px;
+    /* color: rgb(40, 62, 81); */
+    color: aliceblue;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-card-text {
+    /* color: rgb(47, 77, 103); */
+    color: rgb(200, 213, 225);
+}
+
+.box-text {
+    font-size: 3
+}
+
+.text-color-light {
+    color: rgb(25, 98, 90);
+}
+
+.text-color-dark {
+    color: rgb(13, 70, 92);
+}
+
+.text-muted {
+    opacity: 70%;
+}
+
+/* .flex-item a:link {
+    color: rgb(49, 93, 114);
+    text-decoration: none;
+} */
+
+/* .flex-item a:link { */
+    /* color: rgb(80, 146, 172); */
+    /* color: aliceblue; */
+    /* color: rgb(122, 161, 189); */
+    /* color: rgb(181, 213, 210);
+    text-decoration: none; */
+/* } */
+
+.container a:hover {
+    color: rgb(164, 192, 212);
+    text-decoration: none;
+}
+
+
+
+.flex-item a {
+    /* color: rgb(25, 66, 98); */
+    /* color: rgb(122, 161, 189); */
+    color: rgb(157, 189, 201);
+    text-decoration: none;
+}
+
+.flex-item a:hover {
+    /* color: rgb(25, 66, 98); */
+    color: rgb(101, 142, 170);
+    text-decoration: none;
+}
+
+.flex-item a:link {
+    color: rgb(138, 183, 199);
+    text-decoration: none;
+}
+
+.flex-item a:link:hover {
+    color: rgb(101, 142, 170);
+    text-decoration: none;
+}
+
+.darker-link a {
+    color: rgb(109, 150, 174);
+    text-decoration: none;
+}
+
+.darker-link a:link {
+    color: rgb(255, 0, 64);
+    text-decoration: none;
+}
+
+
+/* Navbar Customization */
 
 .nav-push-down {
     position: relative;
     top: 20px;
-}
-
-.nav-flex {
-    align-items: center;
 }
 
 .navbar-nav {
@@ -41,22 +164,16 @@ nav .navbar-nav li a.current {
     max-height: 92px;
     min-width: 50px;
     flex: auto;
-    /* position:relative;
-    top: -15px; */
-    /* margin: 0 10px 0 0 */
 }
 
 .word-logo {
     max-height: 65px;
     min-width: 50px;
     flex: auto;
-    /* position: relative;
-    top: -15px; */
 }
 
 .socials-box {
-    /* background-color: rgb(55, 111, 109); */
-    background-color: rgb(24, 39, 52);
+    background-color: rgb(12, 22, 32);
     padding: 10px;
     text-align: center;
     display: inline-block;
@@ -70,8 +187,8 @@ nav .navbar-nav li a.current {
 }
 
 .socials-box-2 {
-    /* background-color: rgb(55, 111, 109); */
-    background-color: rgb(31, 50, 65);
+    /* background-color: rgb(24, 39, 52); */
+    background-color: rgb(12, 22, 32);
     padding: 10px;
     text-align: center;
     display: inline-block;
@@ -89,39 +206,12 @@ nav .navbar-nav li a.current {
     height: 30px;
 }
 
-.socials-logo-2 {
-    padding: 0 5px 5px 5px;
-    height: 40px;
-}
 
-.front-header {
-    font-weight: 900;
-    text-align: center;
-    letter-spacing: 3px;
-}
-
-.greens-color {
-    /* color: rgb(54, 80, 77); */
-    /* color: rgb(13, 70, 92); */
-    /* color: rgb(4, 69, 62); */
-    color: rgb(31, 50, 65);
-    /* color: rgb(31, 50, 65); */
-}
-
-.buffer-text {
-    padding: 18px 10% 10px 10%;
-    font-size: 20px;
-}
-
-.buffer-text a {
-    /* color: rgb(115, 163, 158); */
-    color: rgb(115, 141, 163);
-}
+/* Footer Customization */
 
 footer {
-    /* background-color: rgb(34, 51, 49); */
-    /* background-color: rgb(4, 69, 62); */
-    background-color: rgb(40, 62, 81);
+    /* background-color: rgb(31, 50, 65); */
+    background-color: rgb(18, 33, 46);
     color: aliceblue;
 }
 
@@ -136,33 +226,30 @@ footer {
     text-align: left;
 }
 
-.footer-text-left {
-    /* width: 35%; */
-    text-align: left;
+
+/* Section Building */
+
+.box-color {
+    background-color: rgb(11, 11, 11);
+    border: 1px solid rgb(255, 51, 0);
 }
 
-.footer-text-right {
-    width: 50%;
-    text-align: right;
+.item-color {
+    background-color: rgb(80, 54, 98);
+    border: 1px solid blue;
 }
 
-/* start */
-
-.box {
+/* .box {
     width: 300px;
     min-height: 50px;
     font-size: 2rem;
-    /* background-color: lightblue;
-    border: 1px solid blue; */
-  }
+  } */
 
 .flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    /* background-color:rgb(115, 163, 158);
-    border: 1px solid blue; */
 }
 
 .flex-container-nav {
@@ -172,8 +259,6 @@ footer {
     padding: 0 20px;
     max-height: 100px;
     align-items: baseline;
-    /* background-color:rgb(115, 163, 158);
-    border: 1px solid blue; */
 }
 
 .flex-container-nav-2 {
@@ -181,8 +266,6 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    /* background-color:rgb(115, 163, 158);
-    border: 1px solid blue; */
 }
 
 .flex-container-vert-1 {
@@ -190,8 +273,6 @@ footer {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    /* background-color:rgb(191, 211, 189);
-    border: 1px solid rgb(0, 255, 0); */
 }
 
 .flex-container-vert-2 {
@@ -199,8 +280,6 @@ footer {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    /* background-color:rgb(191, 211, 189);
-    border: 1px solid rgb(0, 255, 0); */
 }
 
 .flex-container-vert-3 {
@@ -209,121 +288,26 @@ footer {
     justify-content: center;
     align-items: center;
     max-width: 450px;
-    /* background-color:rgb(191, 211, 189);
-    border: 1px solid rgb(0, 255, 0); */
 }
 
+.flex-container-vert-4 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item-max {
+    max-width: 20vw;
+}
 
 .flex-item {
     font-size: 20px;
-    /* background-color: rgb(204, 219, 224);
-    border: 1px solid red; */
 }
 
-/* end */
 
 
-/* .flex-item-button {
-    background-color: rgb(204, 219, 224);
-    border: 1px solid red; 
-} */
-
-.space-even {
-    justify-content: space-evenly;
-}
-
-.space-bet {
-    justify-content: space-between;
-}
-
-.top-padding {
-    padding: 20px 0 0 0;
-}
-
-.bottom-padding {
-    padding: 0 0 20px 0;
-}
-
-.page-title {
-    font-size: 35px;
-    /* color: rgb(13, 70, 92); */
-    /* color: rgb(54, 80, 77); */
-    /* color: rgb(31, 50, 65); */
-    color: rgb(40, 62, 81);
-    font-weight: 900;
-    letter-spacing: 2px;
-}
-
-.my-card-title {
-    font-size: 20px;
-    /* color: rgb(54, 80, 77); */
-    /* color: rgb(4, 69, 62); */
-    color: rgb(40, 62, 81);
-    font-weight: 900;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.my-card-text {
-    /* color:rgb(34, 51, 49) */
-    color: rgb(47, 77, 103);
-}
-
-.box-text {
-    font-size: 3
-}
-
-.text-color-light {
-    color: rgb(25, 98, 90);
-}
-
-.text-color-dark {
-    color: rgb(13, 70, 92);
-}
-
-/* .more-container-color {
-    background-color: rgb(239, 239, 239);
-} */
-
-.more-card:hover {
-    /* background-color: rgb(239, 246, 242); */
-    background-color: rgb(248, 248, 248);
-}
-
-.img-flex {
-    /* width: 60vw; */
-    max-width: 450px;
-}
-
-.min-width-pls {
-    min-width: 200px;
-}
-
-.text-muted {
-    opacity: 70%;
-}
-
-.flex-item a:link {
-    /* color: rgb(25, 98, 90); */
-    color: rgb(49, 93, 114);
-    text-decoration: none;
-}
-
-.flex-item a {
-    /* color: rgb(25, 98, 90); */
-    color: rgb(25, 66, 98);
-    text-decoration: none;
-}
-
-.container a:hover {
-    color: rgb(4, 61, 59);
-    text-decoration: none;
-}
-
-.min-height-full {
-    min-height: 100vh;
-}
+/* Section Customization */
 
 .right-float {
     float: right;
@@ -338,71 +322,177 @@ footer {
     white-space: nowrap;
 }
 
-.ros-pic {
-    max-width: 75%; 
-    height: auto; 
-    margin-top: 15px;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.118), 0 6px 20px 0 rgba(0, 0, 0, 0.107); */
+.min-height-full {
+    /* Makes sure footer is at the bottom, content spans device height */
+    min-height: 100vh;
+}
+
+.more-card:hover {
+    /* background-color: rgb(240, 239, 239); */
+    background-color: rgb(42, 61, 75);
+}
+
+.more-card {
+    background-color: rgb(31, 50, 65);
 }
 
 .container .col-auto .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.118);
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.118), 0 6px 20px 0 rgba(0, 0, 0, 0.107); */
 }
 
-.text-on-img-container {
-    position: relative;
-    text-align: center;
-    color: white;
+.support-banner {
+    width: 100vw;
 }
 
-.text-on-img {
-    position: absolute;
-    top: 8vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 5vw;
-    font-weight: 900;
-    letter-spacing: 0.5vw;
-
+.ros-card {
+    background-color: rgb(18, 33, 46);
 }
 
-/* .nav-padding {
-    padding: 30px 0 0 0;
-} */
 
-
-/* .toggler-color {
-    background-color: brown !important;
-} */
-
-/* @media (min-width: 576px) {
-  body::before {
-    content: "SM";
-  }
+/* Image Customization */
+.socials-logo {
+    padding: 0 5px 5px 5px;
+    height: 30px;
 }
 
-@media (min-width: 768px) {
-  body::before {
-    content: "MD";
-  }
+.socials-logo-2 {
+    padding: 0 5px 5px 5px;
+    height: 40px;
 }
 
-@media (min-width: 992px) {
-  body::before {
-    content: "LG";
-  }
+.img-flex {
+    max-width: 450px;
 }
 
-@media (min-width: 1200px) {
-  body::before {
-    content: "XL";
-  }
+.img-flex-2 {
+    max-width: 250px;
 }
 
-@media (min-width: 1400px) {
-  body::before {
-    content: "XXL";
-  }
-} */
+.ros-pic {
+    max-width: 75%; 
+    height: auto; 
+    margin-top: 15px;
+}
+
+
+.body-color {
+    /* background-color: rgb(37, 59, 76); */
+    background-color: rgb(31, 50, 65);
+}
+
+.my-text-color {
+    /* color:aliceblue */
+    /* color: rgb(122, 161, 189); */
+    color: rgb(109, 150, 174);
+}
+
+.my-text-color-light {
+    color: aliceblue;
+}
+
+.my-text-color-medium {
+    color: rgb(200, 213, 225);
+}
+
+.my-container {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.center-items {
+    align-items: center;
+}
+
+.small-gap {
+    gap: 5vw;
+}
+
+.big-gap {
+    gap: 15vw;
+}
+
+.my-text-box {
+    /* flex-basis: 50vw; */
+    /* max-width: 90vw; */
+    max-width: 50vw;
+    min-width: 300px;
+    /* overflow-wrap: break-word;
+    word-break: break-all; */
+    padding: 10px 0 10px 0;
+}
+
+.align-start {
+    text-align: start;
+}
+
+.align-end {
+    text-align: end;
+}
+
+.my-photo-box {
+    /* min-width: 20vw; */
+    min-width: 300px;
+    max-width: 22vw;
+} 
+
+.my-photo-box-2 {
+    min-width: 20vw;
+    max-width: 25vw;
+} 
+
+.round-corners {
+    border-radius: 10px;
+}
+
+.max-30 {
+    max-width: 10vw;
+}
+
+.space-even {
+    justify-content: space-evenly;
+}
+
+.space-bet {
+    justify-content: space-between;
+}
+
+.space-ar {
+    justify-content: space-around;
+}
+
+.space-cent {
+    justify-content: center;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.align-start {
+    align-items: start;
+}
+
+
+.font-25 {
+    font-size: 25px;
+}
+
+.break-this {
+    word-break: break-all;
+}
+
+.align-content-bot {
+    align-items: end;
+}
+
+.card-title {
+    color:aliceblue
+}
+
+.card-subtitle {
+    /* color: rgb(200, 213, 225); */
+    color: rgb(109, 150, 174);
+}
