@@ -1,3 +1,45 @@
+@font-face {
+    font-family: 'Marvin';
+    src: url('Marvin-Round.eot');
+    src: local('Marvin Round'), local('Marvin-Round'),
+        url('Marvin-Round.eot?#iefix') format('embedded-opentype'),
+        url('Marvin-Round.woff2') format('woff2'),
+        url('Marvin-Round.woff') format('woff'),
+        url('Marvin-Round.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Marvin';
+    src: url('Marvin.eot');
+    src: local('Marvin'),
+        url('Marvin.eot?#iefix') format('embedded-opentype'),
+        url('Marvin.woff2') format('woff2'),
+        url('Marvin.woff') format('woff'),
+        url('Marvin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Marvin';
+    src: url('Marvin-Shadow.eot');
+    src: local('Marvin Shadow'), local('Marvin-Shadow'),
+        url('Marvin-Shadow.eot?#iefix') format('embedded-opentype'),
+        url('Marvin-Shadow.woff2') format('woff2'),
+        url('Marvin-Shadow.woff') format('woff'),
+        url('Marvin-Shadow.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.greens-font {
+    font-family: Marvin, Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 700em;
+}
+
 /* Color  */
 
 .backg-color {
@@ -5,21 +47,28 @@
     background-color: rgb(18, 33, 46);
 }
 
+.backg-color-faded {
+    background-color: rgb(21, 39, 54);
+}
+
 .greens-color {
     color: rgb(40, 62, 81);
 }
 
 nav .navbar-nav li a{
-    color: aliceblue;
+    /* color: aliceblue; */
+    color: rgb(199, 213, 225);
 }
 
 nav .navbar-nav li a.current {
-    color: rgb(181, 213, 210);
+    /* color: rgb(181, 213, 210); */
+    color: rgb(137, 180, 203);
 }
 
 .navbar a:hover {
     /* color: rgb(12, 31, 27) !important; */
-    color: rgb(122, 161, 189) !important;
+    /* color: rgb(122, 161, 189) !important; */
+    color: rgb(94, 135, 161) !important;
 }
 
 .about-card-text a {
@@ -42,7 +91,15 @@ nav .navbar-nav li a.current {
     letter-spacing: 2px;
     text-align: center;
     /* color: rgb(40, 62, 81); */
-    color: aliceblue;
+    color: rgb(199, 213, 225);
+}
+
+.page-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(152, 171, 186);
 }
 
 .page-title-2 {
@@ -53,25 +110,83 @@ nav .navbar-nav li a.current {
     color: aliceblue;
 }
 
-.about-card-text {
+.page-title-font {
+    /* font-size: 26px; */
+    font-size: 4vmin;
+    /* font-weight: 500;
+    font-style: normal; */
+    font-weight: bold;
+    font-style: normal;
+    font-family: Marvin, Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* .about-card-text {
     padding: 18px 10% 10px 10%;
     font-size: 20px;
     color: rgb(200, 213, 225);
-}
+} */
 
 .my-card-title {
-    font-size: 20px;
-    /* color: rgb(40, 62, 81); */
-    color: aliceblue;
-    font-weight: 900;
+    font-size: 17px;
+    color: rgb(199, 213, 225);
+    font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    /* color: rgb(40, 62, 81); */
+    /* color: aliceblue; */
+    /* font-family: Marvin, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 2px; */
+}
+
+.my-card-title-sm {
+    font-size: 16px;
+    color: rgb(199, 213, 225);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.my-article-title {
+    font-size: 15px;
+    color: rgb(199, 213, 225);
+    font-weight: 700;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.article-date {
+    font-size: 10px;
+    color: rgb(199, 213, 225);
+    font-weight: 600;
+    margin-top: 4px;
 }
 
 .my-card-text {
     /* color: rgb(47, 77, 103); */
-    color: rgb(200, 213, 225);
+    /* color: rgb(200, 213, 225); */
+    /* color: rgb(182, 199, 213); */
+    /* color: rgb(135, 151, 164); */
+    /* color: rgb(152, 171, 186); */
+    color: rgb(135, 151, 164);
+    font-size: 13px;
+    /* font-weight: 500; */
+    letter-spacing: 1px;
+}
+
+.my-card-text-sm {
+    /* color: rgb(182, 199, 213); */
+    /* color: rgb(152, 171, 186); */
+    color: rgb(135, 151, 164);
+    font-size: 12px;
 }
 
 .box-text {
@@ -114,6 +229,7 @@ nav .navbar-nav li a.current {
     /* color: rgb(25, 66, 98); */
     /* color: rgb(122, 161, 189); */
     color: rgb(157, 189, 201);
+    /* color: rgb(128, 187, 208); */
     text-decoration: none;
 }
 
@@ -133,15 +249,23 @@ nav .navbar-nav li a.current {
     text-decoration: none;
 }
 
-.darker-link a {
-    color: rgb(109, 150, 174);
+.link-color a {
+    /* color: rgb(136, 189, 220); */
+    /* color: rgb(55, 102, 133); */
+    /* color: rgb(94, 135, 161); */
+    /* color: rgb(79, 135, 170); */
+    color: rgb(94, 135, 161);
+    /* color: rgb(137, 180, 203); */
     text-decoration: none;
 }
 
-.darker-link a:link {
-    color: rgb(255, 0, 64);
+.link-color a:hover {
+    /* color: rgb(109, 150, 174); */
+    /* color: rgb(137, 180, 203); */
+    color: rgb(55, 102, 133);
     text-decoration: none;
 }
+
 
 
 /* Navbar Customization */
@@ -161,7 +285,8 @@ nav .navbar-nav li a.current {
 }
 
 .circle-logo {
-    max-height: 92px;
+    /* max-height: 92px; */
+    max-height: 80px;
     min-width: 50px;
     flex: auto;
 }
@@ -173,7 +298,8 @@ nav .navbar-nav li a.current {
 }
 
 .socials-box {
-    background-color: rgb(12, 22, 32);
+    /* background-color: rgb(12, 22, 32); */
+    background-color: rgb(17, 27, 34);
     padding: 10px;
     text-align: center;
     display: inline-block;
@@ -188,7 +314,8 @@ nav .navbar-nav li a.current {
 
 .socials-box-2 {
     /* background-color: rgb(24, 39, 52); */
-    background-color: rgb(12, 22, 32);
+    /* background-color: rgb(12, 22, 32); */
+    background-color: rgb(17, 27, 34);
     padding: 10px;
     text-align: center;
     display: inline-block;
@@ -333,7 +460,8 @@ footer {
 }
 
 .more-card {
-    background-color: rgb(31, 50, 65);
+    background-color: rgb(31, 49, 65);
+    /* background-color: rgb(18, 33, 46); */
 }
 
 .container .col-auto .card {
@@ -377,13 +505,14 @@ footer {
 
 .body-color {
     /* background-color: rgb(37, 59, 76); */
-    background-color: rgb(31, 50, 65);
+    background-color: rgb(31, 49, 65);
 }
 
 .my-text-color {
     /* color:aliceblue */
     /* color: rgb(122, 161, 189); */
-    color: rgb(109, 150, 174);
+    /* color: rgb(109, 150, 174); */
+    color: rgb(136, 189, 220);
 }
 
 .my-text-color-light {
@@ -488,11 +617,104 @@ footer {
     align-items: end;
 }
 
-.card-title {
-    color:aliceblue
-}
-
 .card-subtitle {
     /* color: rgb(200, 213, 225); */
     color: rgb(109, 150, 174);
+}
+
+
+
+/* Colors */
+
+.color-0 {
+    color: rgb(17, 27, 34);
+}
+
+.color-1 {
+    color: rgb(18, 33, 46);
+}
+
+.color-2 {
+    color: rgb(55, 102, 133);
+}
+
+.color-3 {
+    color: rgb(79, 135, 170);
+}
+
+.color-4 {
+    color: rgb(31, 49, 65);
+}
+
+.color-5 {
+    color: rgb(94, 135, 161);
+}
+
+.color-6 {
+    color: rgb(137, 180, 203);
+}
+
+.color-7 {
+    color: rgb(135, 151, 164);
+}
+
+.color-8 {
+    color: rgb(152, 171, 186);
+}
+
+.color-9 {
+    color: rgb(182, 199, 213);
+}
+
+.color-10 {
+    color: rgb(199, 213, 225);
+}
+
+
+
+.main-box {
+    max-width: 60em;
+    /* display: flex; */
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.child1 {
+    width: 50%;
+    height: 100vh;
+    border: 1px solid rgb(134, 175, 196);
+}
+
+.child2 {
+    width: 50%;
+    height: 100vh;
+    border: 1px solid rgb(134, 175, 196);
+}
+
+.col1 {
+    width: 30vmin;
+    min-width: 150px;
+    height: auto;
+    /* border: 1px solid rgb(134, 175, 196); */
+}
+
+.col2 {
+    width: 30vmin;
+    min-width: 150px;
+    height: auto;
+    /* border: 1px solid rgb(134, 175, 196); */
+}
+
+.col3 {
+    width: 30vmin;
+    min-width: 150px;
+    height: auto;
+    /* border: 1px solid rgb(134, 175, 196); */
+}
+
+.card-title {
+    color: rgb(182, 199, 213);
 }
