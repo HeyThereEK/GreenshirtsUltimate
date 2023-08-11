@@ -85,13 +85,19 @@ nav .navbar-nav li a.current {
     color: aliceblue;
 }
 
+.flex-item {
+    font-size: 20px;
+}
+
 .page-title {
     font-size: 35px;
     font-weight: 900;
     letter-spacing: 2px;
     text-align: center;
     /* color: rgb(40, 62, 81); */
-    color: rgb(199, 213, 225);
+    /* color: rgb(199, 213, 225); */
+    color: rgb(182, 199, 213);
+    
 }
 
 .page-subtitle {
@@ -105,19 +111,6 @@ nav .navbar-nav li a.current {
 .page-title-2 {
     font-size: 26px;
     font-weight: 900;
-    letter-spacing: 2px;
-    text-align: center;
-    color: aliceblue;
-}
-
-.page-title-font {
-    /* font-size: 26px; */
-    font-size: 4vmin;
-    /* font-weight: 500;
-    font-style: normal; */
-    font-weight: bold;
-    font-style: normal;
-    font-family: Marvin, Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     text-align: center;
     color: aliceblue;
@@ -146,16 +139,17 @@ nav .navbar-nav li a.current {
 }
 
 .my-card-title-sm {
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(199, 213, 225);
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .my-article-title {
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 2vmin;
     color: rgb(199, 213, 225);
     font-weight: 700;
     text-align: left;
@@ -180,13 +174,14 @@ nav .navbar-nav li a.current {
     font-size: 13px;
     /* font-weight: 500; */
     letter-spacing: 1px;
+    line-height: 1.25;
 }
 
 .my-card-text-sm {
     /* color: rgb(182, 199, 213); */
     /* color: rgb(152, 171, 186); */
     color: rgb(135, 151, 164);
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .box-text {
@@ -266,6 +261,19 @@ nav .navbar-nav li a.current {
     text-decoration: none;
 }
 
+.link-color-2 a {
+    color: rgb(79, 135, 170);
+    text-decoration: none;
+}
+
+.link-color-2 a:hover {
+    color: rgb(55, 102, 133);
+    text-decoration: none;
+}
+
+.font-20 {
+    font-size: 20px;
+}
 
 
 /* Navbar Customization */
@@ -428,9 +436,7 @@ footer {
     max-width: 20vw;
 }
 
-.flex-item {
-    font-size: 20px;
-}
+
 
 
 
@@ -671,27 +677,27 @@ footer {
 }
 
 
-
 .main-box {
     max-width: 60em;
     /* display: flex; */
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
-    letter-spacing: 2px;
+    /* font-size: 20px; */
+    font-size: 2.5vmin;
+    letter-spacing: 0.05em;
 }
 
 .child1 {
-    width: 50%;
-    height: 100vh;
-    border: 1px solid rgb(134, 175, 196);
+    width: 42%;
+    height: auto;
+    /* border: 1px solid rgb(134, 175, 196); */
 }
 
 .child2 {
-    width: 50%;
-    height: 100vh;
-    border: 1px solid rgb(134, 175, 196);
+    width: 42%;
+    height: auto;
+    /* border: 1px solid rgb(134, 175, 196); */
 }
 
 .col1 {
@@ -717,4 +723,62 @@ footer {
 
 .card-title {
     color: rgb(182, 199, 213);
+}
+
+.about-box {
+    width: 32vmax;
+    height: auto;
+    /* border: 0.5px dotted gray; */
+}
+
+.left {
+    margin-right: 10vmin;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.bottom-left-2 {
+    position: absolute;
+    bottom: 4px;
+    left: 10px;
+    font-size: 12px
+}
+
+/* .about-text {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.2;
+} */
+
+/* @media only screen and (min-width: 600px) {
+    .about-text {
+        font-size: 2.1vmin;
+        font-weight: normal;
+        letter-spacing: 0.3vmin;
+        line-height: 1.25;
+    }
+} */
+
+.page-title-font {
+    font-size: 5.2vmin;
+    font-weight: normal;
+    font-family: Marvin, Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(199, 213, 225);
+}
+
+@media only screen and (min-width: 600px) {
+    .page-title-font {
+        font-size: 3.5vmin;
+        font-weight: normal;
+        font-family: Marvin, Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        text-align: center;
+        color: rgb(199, 213, 225);
+    }
 }
