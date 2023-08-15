@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Page Title -->
-    <title>Claremont Greenshirts</title>
+    <title>Photos - Claremont Greenshirts Ultimate Frisbee</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="boot.css">
@@ -15,19 +15,21 @@
 
 
 <body class="min-height-full backg-color">
-<!-- navigation bar (mobile) -->
-<nav class="navbar navbar-dark navbar-expand-lg backg-color justify-content-center d-lg-none">
-    <a href="index.html" class="navbar-item d-flex pe-3">
+<!-- Navigation Bar (MOBILE) -->
+<nav class="navbar navbar-dark navbar-expand-lg backg-color justify-content-evenly d-lg-none">
+    <a href="index.html" class="navbar-item d-flex ps-2">
         <img style="max-height: 60px; width: auto;" src="images/circle3.PNG" alt=""></a>
-    <a href="index.html" class="navbar-item d-flex pe-3">
+    <a href="index.html" class="navbar-item d-flex">
         <img style="max-height: 50px; width: auto;" src="images/logo.png" alt=""></a>
-    <button class="navbar-toggler ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="pe-2">
+        <button class="navbar-toggler ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
         <div class="navbar-collapse collapse" id="collapsingNavbar3">
             <ul class="nav navbar-nav w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="current nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="About.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Practice.html">Practice</a>
@@ -45,10 +47,10 @@
         </div>
 </nav>
 
-<!-- navigation bar (desktop) -->
+<!-- Navigation Bar (DESKTOP) -->
 <nav class="navbar navbar-expand-lg nav-padding py-1 backg-color d-lg-flex d-none">
     <div class="container">
-        <div class="navbar-brand">
+        <div class="navbar-brand py-2">
             <a href="index.html"><img class="circle-logo" src="images/circle3.PNG" alt="Greenshirts Circle Logo"></a>
         </div>
         <a href="index.html"><img class="word-logo" src="images/logo.png" alt="Greenshirts Logo"></a>
@@ -60,7 +62,7 @@
             <ul class="navbar-nav nav-push-down ms-auto dropdown-menu-end whitespace-nowrap">
                 <!-- current page - INDEX -->
                 <li class="nav-item pe-xl-3 px-2">
-                    <a href="index.html" class="current nav-link" aria-current="page">Home</a>
+                    <a class="nav-link" href="About.html">About</a>
                 </li>
                 <li class="nav-item px-xl-3 px-2">
                     <a href="Practice.html" class="nav-link" aria-current="page">Practice</a>
@@ -96,15 +98,23 @@
     </div>
 
 
-    <footer>
-        <!-- footer (mobile)-->
+    <!-- <footer>
         <div class="footer-mobile d-lg-none d-flex">
             Claremont Greenshirts 2023
         </div>
-        <!-- footer (desktop)-->
         <div class="footer-desktop d-lg-flex d-none">
             Claremont Greenshirts 2023
         </div>
-    </footer>
+    </footer> -->
+
+<!-- Sparkles & Footer -->
+<footer class="position-relative">
+    <div class="d-md-block d-none"><img class="img-fluid" src="images/stars4.PNG" alt=""></div>
+    <div class="d-md-none d-block"><img class="img-fluid" src="images/stars5.PNG" alt=""></div>
+    <div class="d-sm-block d-none ps-lg-2 color-8 bottom-left">Claremont Greenshirts Ultimate Frisbee - 2023</div>
+    <div class="d-sm-none d-block color-8 bottom-left-2">Claremont Greenshirts Ultimate Frisbee - 2023</div>
+</footer> 
+
+
 </body>
 </html>
