@@ -275,6 +275,14 @@ nav .navbar-nav li a.current {
     font-size: 20px;
 }
 
+.font-18 {
+    font-size: 18px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
 
 /* Navbar Customization */
 
@@ -350,7 +358,7 @@ footer {
     color: aliceblue;
 }
 
-.footer-desktop {
+/* .footer-desktop {
     padding: 30px 20px 10px 20px;
     margin: 0;
     text-align: left;
@@ -359,7 +367,7 @@ footer {
 .footer-mobile {
     padding: 10px 10px 8px 15px;
     text-align: left;
-}
+} */
 
 
 /* Section Building */
@@ -728,7 +736,11 @@ footer {
 .about-box {
     width: 32vmax;
     height: auto;
-    /* border: 0.5px dotted gray; */
+}
+
+.practice-box {
+    width: 44vmax;
+    height: auto;
 }
 
 .left {
@@ -781,4 +793,28 @@ footer {
         text-align: center;
         color: rgb(199, 213, 225);
     }
+}
+
+.title-font-big {
+    font-size: 7.6vmin;
+}
+
+@media only screen and (min-width: 600px) {
+    .title-font-big {
+        font-size: 5.4vmin;
+    }
+}
+
+.body-full {
+    height: auto;
+    min-height: 100vh;
+}
+
+.min-h {
+    min-height: 81.75vh;
+}
+
+.practice-title {
+    font-size: 30px;
+    font-weight: 600;
 }
