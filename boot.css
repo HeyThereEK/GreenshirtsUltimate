@@ -511,11 +511,15 @@ footer {
 }
 
 .ros-pic {
-    max-width: 75%; 
+    max-width: 100%; 
     height: auto; 
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 
+.roster-backg {
+    background-color: #5E6259;
+    
+}
 
 .body-color {
     /* background-color: rgb(37, 59, 76); */
