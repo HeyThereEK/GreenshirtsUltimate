@@ -822,3 +822,8 @@ footer {
     font-size: 30px;
     font-weight: 600;
 }
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
