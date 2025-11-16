@@ -18,114 +18,23 @@
 </head>
 
 
-<body class="min-height-full backg-color">
-    <!-- Navigation Bar (MOBILE) -->
-    <nav class="navbar navbar-dark navbar-expand-lg backg-color justify-content-evenly d-lg-none">
-        <a href="index.html" class="navbar-item d-flex ps-2">
-            <img style="max-height: 60px; width: auto;" src="images/circle3.PNG" alt=""></a>
-        <a href="index.html" class="navbar-item d-flex">
-            <img style="max-height: 50px; width: auto;" src="images/logo.png" alt=""></a>
-        <div class="pe-2">
-            <button class="navbar-toggler ms-1" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsingNavbar3">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<body class="min-height-full backg-color page-roster">
+
+    <!-- Page Header (navbar & socials)-->
+        <div id="header">
+            <script src="header-loader.js" defer></script>
         </div>
-        <div class="navbar-collapse collapse" id="collapsingNavbar3">
-            <ul class="nav navbar-nav w-100 justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="About.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Practice.html">Practice</a>
-                </li>
-                <li class="nav-item">
-                    <a class="current nav-link" href="Roster.html">Roster</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Support.html">Support Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Photos.html">Photos</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Navigation Bar (DESKTOP) -->
-    <nav class="navbar navbar-expand-lg nav-padding py-1 backg-color d-lg-flex d-none">
-        <div class="container">
-            <div class="navbar-brand py-2">
-                <a href="index.html"><img class="circle-logo" src="images/circle3.PNG"
-                        alt="Greenshirts Circle Logo"></a>
+    <!-- Roster Page Content -->
+        <!-- Big team pic -->
+            <div class="d-flex justify-content-center  roster-backg">
+                <img class="ros-pic" src="images/roster/newroster.jpg" alt="Greenshirts team picture">
             </div>
-            <a href="index.html"><img class="word-logo" src="images/logo.png" alt="Greenshirts Logo"></a>
-            <button class="navbar-toggler navbar-dark mx-1 px-1" data-bs-toggle="collapse" data-bs-target="#nav"
-                aria-controls="nav" aria-label="Expand Navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse pb-lg-0 pb-4 nav-no-wrap" id="nav">
-                <ul class="navbar-nav nav-push-down ms-auto dropdown-menu-end whitespace-nowrap">
-                    <!-- current page - INDEX -->
-                    <li class="nav-item pe-xl-3 px-2">
-                        <a class="nav-link" href="About.html">About</a>
-                    </li>
-                    <li class="nav-item px-xl-3 px-2">
-                        <a href="Practice.html" class="nav-link" aria-current="page">Practice</a>
-                    </li>
-                    <li class="nav-item px-xl-3 px-2">
-                        <a href="Roster.html" class="current nav-link" aria-current="page">Roster</a>
-                    </li>
-                    <li class="nav-item px-xl-3 px-2">
-                        <a href="Support.html" class="nav-link" aria-current="page">Support Us</a>
-                    </li>
-                    <li class="nav-item px-xl-3 px-2">
-                        <a href="Contact.html" class="nav-link" aria-current="page">Contact</a>
-                    </li>
-                    <li class="nav-item ps-xl-3 ps-2">
-                        <a href="Photos.html" class="nav-link" aria-current="page">Photos</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- socials bars -->
-    <div class="socials-box d-lg-block d-none">
-        <a href="https://twitter.com/claremontgreens"><img class="socials-logo" src="images/twitter.png"
-                alt="Twitter Logo to Greenshirts Twitter"></a>
-        <a href="https://www.instagram.com/therealgreenshirts/?hl=en"><img class="socials-logo"
-                src="images/instagram.png" alt="Instagram Logo to Greenshirts Instagram"></a>
-    </div>
-    <div class="socials-box-2 d-lg-none d-block">
-        <a href="https://twitter.com/claremontgreens"><img class="socials-logo" src="images/twitter.png"
-                alt="Twitter Logo to Greenshirts Twitter"></a>
-        <a href="https://www.instagram.com/therealgreenshirts/?hl=en"><img class="socials-logo"
-                src="images/instagram.png" alt="Instagram Logo to Greenshirts Instagram"></a>
-    </div>
+        <div class="body-color">
 
-    <!-- content -->
-    <!-- big team pic -->
-    <div class="d-flex justify-content-center  roster-backg">
-        <img class="ros-pic" src="images/roster/newroster.jpg" alt="Greenshirts team picture">
-        <!-- <div class="text-on-img">Roster</div> -->
-    </div>
-
-
-    <!-- SENIORS -->
-    <!-- <div class="body-color">
-        <div class="container py-lg-4 py-2 align-items-center">
-            <div class="page-title text-center mb-1">Seniors</div>
-
-            </div>
-        </div> -->
-
-
-        <!-- JUNIORS -->
-        <!-- <div class="container py-lg-4 py-2 align-items-center">
+        <!-- ALUMS (class of 2025) -->
+            <!-- <div class="container py-lg-4 py-2 align-items-center">
             <div class="page-title text-center mb-1">Seniors</div>
             <div class="row justify-content-center">
                 <div class="col-auto mb-3">
@@ -275,6 +184,16 @@
                     </div>
                 </div>
                 <div class="col-auto mb-3">
+                    <div class="card ros-card" style="width: 12rem;">
+                        <img class="card-img-top" src="images/roster/sunny.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Sunny</h5>
+                            <h6 class="card-subtitle mb-2">(Paulina Malysa)</h6>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto mb-3">
                     <div class="card ros-card" style="width: 14rem;">
                         <img class="card-img-top" src="images/roster/tails.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -294,594 +213,742 @@
                 </div>
             </div>
         </div> -->
-        
-        <div class="container py-lg-4 py-2 align-items-center">
-            <div class="page-title text-center mb-1">Seniors</div>
-            <div class="row justify-content-center">
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 14rem;">
-                        <img class="card-img-top" src="images/roster/airbud2.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Airbud</h5>
-                            <h6 class="card-subtitle mb-2">(Ava Eggener)</h6>
-                             
+
+
+        <!-- SENIORS (class of 2026) -->
+            <div class="container py-lg-4 py-2 align-items-center">
+
+                <!-- "Seniors" Title Text -->
+                    <div class="page-title text-center mb-1">Seniors</div>
+
+                <div class="row justify-content-center">
+                
+                <!-- Airbud -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 14rem;">
+                            <img class="card-img-top" src="images/roster/airbud2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Airbud</h5>
+                                <h6 class="card-subtitle mb-2">(Ava Eggener)</h6>
+                            </div>
                         </div>
                     </div>
+
+                <!-- Bubbles -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 14rem;">
+                            <img class="card-img-top" src="images/roster/bubbles.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Bubbles &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;#14</h5>
+                                <h6 class="card-subtitle mb-2">(Maya Chow)</h6>
+                            </div>
+                        </div>
+                    </div>
+                
+                <!-- Chess -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 14rem;">
+                            <img class="card-img-top" src="images/roster/chess.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Chess &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;#8</h5>
+                                <h6 class="card-subtitle mb-2">(Samantha Salazar)</h6>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Dart -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 14rem;">
+                            <img class="card-img-top" src="images/roster/dart.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Dart</h5>
+                                <h6 class="card-subtitle mb-2">(Liz Lux)</h6>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Dobby -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 14rem;">
+                            <img class="card-img-top" src="images/roster/dobby4.JPG" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Dobby &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;#3</h5>
+                                <h6 class="card-subtitle mb-2">(Rachel Ressmeyer)</h6>
+                                <!-- <p class="card-text">I once ate 20 clementines after a tournament</p> -->
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Mage -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 14rem;">
+                            <img class="card-img-top" src="images/roster/mage4.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Mage &emsp;&emsp;&emsp;&emsp;&emsp;#77</h5>
+                                <h6 class="card-subtitle mb-2">(Nina Jobanputra)</h6>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Rocket -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 14rem;">
+                            <img class="card-img-top" src="images/roster/rocket.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Rocket &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;#4</h5>
+                                <h6 class="card-subtitle mb-2">(Sophie David)</h6>
+                                <!-- <p class="card-text">Enthusiastic about Ben & Jerry's Phish Food</p> -->
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Spokes -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 14rem;">
+                            <img class="card-img-top" src="images/roster/spokes.JPG" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Spokes &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;#7</h5>
+                                <h6 class="card-subtitle mb-2">(Annika Dank)</h6>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Toto -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 14rem;">
+                            <img class="card-img-top" src="images/roster/toto.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Toto &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;#16</h5>
+                                <h6 class="card-subtitle mb-2">(Mattie Johnson)</h6>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Zero -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 14rem;">
+                            <img class="card-img-top" src="images/roster/zero.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Zero</h5>
+                                <h6 class="card-subtitle mb-2">(Elsa Macias)</h6>
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                <!-- Zippo -->
+                    <!-- <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 14rem;">
+                            <img class="card-img-top" src="images/roster/zippo.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Zippo &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;#?</h5>
+                                <h6 class="card-subtitle mb-2">(Kendrick Dahlin)</h6>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 14rem;">
-                        <img class="card-img-top" src="images/roster/bubbles.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Bubbles &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;#14</h5>
-                            <h6 class="card-subtitle mb-2">(Maya Chow)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 14rem;">
-                        <img class="card-img-top" src="images/roster/chess.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Chess &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;#8</h5>
-                            <h6 class="card-subtitle mb-2">(Samantha Salazar)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 14rem;">
-                        <img class="card-img-top" src="images/roster/dart.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Dart</h5>
-                            <h6 class="card-subtitle mb-2">(Liz Lux)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 14rem;">
-                        <img class="card-img-top" src="images/roster/dobby4.JPG" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Dobby &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;#3</h5>
-                            <h6 class="card-subtitle mb-2">(Rachel Ressmeyer)</h6>
-                            <!-- <p class="card-text">I once ate 20 clementines after a tournament</p> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 14rem;">
-                        <img class="card-img-top" src="images/roster/mage4.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Mage &emsp;&emsp;&emsp;&emsp;&emsp;#77</h5>
-                            <h6 class="card-subtitle mb-2">(Nina Jobanputra)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 14rem;">
-                        <img class="card-img-top" src="images/roster/rocket.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Rocket &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;#4</h5>
-                            <h6 class="card-subtitle mb-2">(Sophie David)</h6>
-                            <!-- <p class="card-text">Enthusiastic about Ben & Jerry's Phish Food</p> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 14rem;">
-                        <img class="card-img-top" src="images/roster/spokes.JPG" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Spokes &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;#7</h5>
-                            <h6 class="card-subtitle mb-2">(Annika Dank)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 14rem;">
-                        <img class="card-img-top" src="images/roster/toto.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Toto &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;#16</h5>
-                            <h6 class="card-subtitle mb-2">(Mattie Johnson)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 14rem;">
-                        <img class="card-img-top" src="images/roster/zero.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Zero</h5>
-                            <h6 class="card-subtitle mb-2">(Elsa Macias)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 14rem;">
-                        <img class="card-img-top" src="images/roster/zippo.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Zippo &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;#?</h5>
-                            <h6 class="card-subtitle mb-2">(Kendrick Dahlin)</h6>
-                        </div>
-                    </div>
-                </div> -->
             </div>
+
+
+        <!-- JUNIORS (class of 2027) -->
+            <div class="container py-lg-4 py-2 align-items-center">
+
+                <!-- "Juniors" Title Text -->
+                    <div class="page-title text-center mb-1">Juniors</div>
+
+                <div class="row justify-content-center">
+
+                <!-- Bear -->
+                    <!-- <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <img class="card-img-top" src="images/roster/bear.jpg" alt="Picture of Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">Bear</h5>
+                                <h6 class="card-subtitle mb-2">(Emmy Knapp)</h6>
+                    </div></div></div> -->
+                
+                <!-- Chef -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/chef.jpg" alt="Picture of Chef">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Chef</h5>
+                                <h6 class="card-subtitle mb-2">(Nora Verner)</h6>
+                            </div></div></div>
+                
+                <!-- Combo -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/combo.jpg" alt="Picture of Combo">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Combo</h5>
+                                <h6 class="card-subtitle mb-2">(Sage Lewit)</h6>
+                            </div></div></div>
+
+                <!-- Crunch -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/crunch.JPG" alt="Picture of Crunch">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Crunch</h5>
+                                <h6 class="card-subtitle mb-2">(Lee Ramsey-Code)</h6>
+                            </div></div></div>
+                
+                <!-- Delphi -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/delphi.jpg" alt="Picture of Delphi">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Delphi</h5>
+                                <h6 class="card-subtitle mb-2">(Andy FF)</h6>
+                            </div></div></div>
+                
+                <!-- Ebay -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/ebay.jpg" alt="Picture of Ebay">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Ebay</h5>
+                                <h6 class="card-subtitle mb-2">(Georgia Stettner)</h6>
+                            </div></div></div>
+                
+                <!-- Evelyn -->
+                    <!-- <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <img class="card-img-top" src="images/roster/evelyn.JPG" alt="Picture of Evelyn">
+                            <div class="card-body">
+                                <h5 class="card-title">Evelyn</h5>
+                                <h6 class="card-subtitle mb-2">(Evelyn)</h6>
+                    </div></div></div> -->
+                
+                <!-- Flip -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/flip.jpg" alt="Picture of Flip">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Flip</h5>
+                                <h6 class="card-subtitle mb-2">(Juni Cleary)</h6>
+                            </div></div></div>
+                
+                <!-- Hobbes -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/hobbes.jpg" alt="Picture of Hobbes">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Hobbes</h5>
+                                <h6 class="card-subtitle mb-2">(Theresa Provasnik)</h6>
+                            </div></div></div>
+                
+                <!-- Jam -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/jam.jpg" alt="Picture of Jam">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Jam</h5>
+                                <h6 class="card-subtitle mb-2">(Lucia Stoller)</h6> 
+                            </div></div></div>
+                
+                <!-- Katrina -->
+                    <!-- <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <img class="card-img-top" src="images/roster/katrina.jpg" alt="Picture of Katrina">
+                            <div class="card-body">
+                                <h5 class="card-title">Katrina</h5>
+                                <h6 class="card-subtitle mb-2">(Katrina Nelson)</h6>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+                <!-- A$AP -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/asap.jpg" alt="Picture of ASAP">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">A$AP</h5>
+                                <h6 class="card-subtitle mb-2">(Katy McPartland)</h6>
+                            </div></div></div>
+
+                <!-- Kelp -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/kelp.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Kelp</h5>
+                                <h6 class="card-subtitle mb-2">(Shreya Shah)</h6>
+                            </div></div></div>
+
+                <!-- Kiwi -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/kiwi.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Kiwi</h5>
+                                <h6 class="card-subtitle mb-2">(Ukiah)</h6>
+                            </div></div></div>
+
+                <!-- Pebble -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/pebble.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Pebble</h5>
+                                <h6 class="card-subtitle mb-2">(Claire Wang)</h6>
+                            </div></div></div>
+
+                <!-- Rutie -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/rutabaga.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Rutie</h5>
+                                <h6 class="card-subtitle mb-2">(Cleo Bennett)</h6>
+                            </div></div></div>
+
+                <!-- Sapphire -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/sapphire.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Sapphire</h5>
+                                <h6 class="card-subtitle mb-2">(Sydney Fouch)</h6>
+                            </div></div></div>
+
+                <!-- Sharkboy -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/sharkboy.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Sharkboy</h5>
+                                <h6 class="card-subtitle mb-2">(Hazel Stanfield)</h6>
+                            </div></div></div>
+
+                <!-- Sophia -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/sophia.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Sophia</h5>
+                                <h6 class="card-subtitle mb-2">(Sophia Farrand)</h6>
+                            </div></div></div>
+
+                <!-- Spud -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/spud.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Spud</h5>
+                                <h6 class="card-subtitle mb-2">(Isabel Wilder)</h6>
+                            </div></div></div>
+
+                <!-- Sully -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/honor.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Sully</h5>
+                                <h6 class="card-subtitle mb-2">(Honor Dodd)</h6>
+                            </div></div></div>
+
+                <!-- Toast -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/toast.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Toast</h5>
+                                <h6 class="card-subtitle mb-2">(Caroline Ambrose)</h6>
+                        </div></div></div>
+
+                <!-- Widget -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/widget.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Widget</h5>
+                                <h6 class="card-subtitle mb-2">(Wil Kirkland)</h6>
+                        </div></div></div>
+
+                <!-- Yolo -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/yolo.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">Yolo</h5>
+                                <h6 class="card-subtitle mb-2">(Emma Casado)</h6>
+                        </div></div></div>
+
+                </div>
+            </div>
+
+
+        <!-- SOPHOMORES (class of 2028) -->
+            <div class="container py-lg-4 py-2 align-items-center">
+
+                <!-- "Sophomores" Title Text -->
+                    <div class="page-title text-center mb-1">Sophomores</div>
+                <div class="row justify-content-center">
+                
+                <!-- EXAMPLE -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/temp.png" alt="Picture of EXAMPLE">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">EXAMPLE</h5>
+                                <h6 class="card-subtitle mb-2">(FIRST LAST)</h6>
+                            </div></div></div>
+
+                <!-- EXAMPLE -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/temp.png" alt="Picture of EXAMPLE">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">EXAMPLE</h5>
+                                <h6 class="card-subtitle mb-2">(FIRST LAST)</h6>
+                            </div></div></div>
+                
+                <!-- EXAMPLE -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/temp.png" alt="Picture of EXAMPLE">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">EXAMPLE</h5>
+                                <h6 class="card-subtitle mb-2">(FIRST LAST)</h6>
+                            </div></div></div>
+
+                </div>
+            </div>
+
+
+        <!-- Rookies (class of ???) -->
+            <div class="container py-lg-4 py-2 align-items-center">
+
+                <!-- "Rookies" Title Text -->
+                    <div class="page-title text-center mb-1">Rookies</div>
+                <div class="row justify-content-center">
+                
+                <!-- EXAMPLE -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/temp.png" alt="Picture of EXAMPLE">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">EXAMPLE</h5>
+                                <h6 class="card-subtitle mb-2">(FIRST LAST)</h6>
+                            </div></div></div>
+
+                <!-- EXAMPLE -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/temp.png" alt="Picture of EXAMPLE">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">EXAMPLE</h5>
+                                <h6 class="card-subtitle mb-2">(FIRST LAST)</h6>
+                            </div></div></div>
+                
+                <!-- EXAMPLE -->
+                    <div class="col-auto mb-3">
+                        <div class="card ros-card" style="width: 12rem;">
+                            <!-- picture -->
+                                <img class="card-img-top" src="images/roster/temp.png" alt="Picture of EXAMPLE">
+                            <div class="card-body">
+                            <!-- name -->
+                                <h5 class="card-title">EXAMPLE</h5>
+                                <h6 class="card-subtitle mb-2">(FIRST LAST)</h6>
+                            </div></div></div>
+
+                </div>
+            </div>
+
+        <!-- Honorary Greens -->
+            <div class="container py-lg-4 py-2 align-items-center">
+                <div class="page-title text-center mb-1">Honorary Greens</div>
+                <div class="row justify-content-center">
+                    <!-- Rooster -->
+                        <div class="col-auto mb-3">
+                            <div class="card ros-card" style="width: 12rem;">
+                                <img class="card-img-top" src="images/roster/rooster.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rooster</h5>
+                                    <h6 class="card-subtitle mb-2">(Dawg)</h6>
+                                    <!-- <p class="card-text"></p> -->
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Hanna -->
+                        <div class="col-auto mb-3">
+                            <div class="card ros-card" style="width: 12rem;">
+                                <img class="card-img-top" src="images/roster/hanna.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hanna</h5>
+                                    <h6 class="card-subtitle mb-2">(Sweet Baby)</h6>
+                                    <!-- <p class="card-text"></p> -->
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Albert & Benny -->
+                        <div class="col-auto mb-3">
+                            <div class="card ros-card" style="width: 12rem;">
+                                <img class="card-img-top" src="images/roster/albertnbenny.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Albert & Benny</h5>
+                                    <h6 class="card-subtitle mb-2">(Collective Children)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Baby -->
+                        <div class="col-auto mb-3">
+                            <div class="card ros-card" style="width: 12rem;">
+                                <img class="card-img-top" src="images/roster/baby.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Baby</h5>
+                                    <h6 class="card-subtitle mb-2">(Where is he)</h6>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Soup Noodle -->
+                        <div class="col-auto mb-3">
+                            <div class="card ros-card" style="width: 12rem;">
+                                <img class="card-img-top" src="images/roster/soupnoodle.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Soup Noodle</h5>
+                                    <h6 class="card-subtitle mb-2">(Yum!!)</h6>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Wasabi & Pebbles -->
+                        <div class="col-auto mb-3">
+                            <div class="card ros-card" style="width: 12rem;">
+                                <img class="card-img-top" src="images/roster/wasabinpebbles.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title">Wasabi & Pebbles</h6>
+                                    <h7 class="card-subtitle mb-2">(Queer Role Models)</h7>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+
         </div>
 
 
-        <div class="container py-lg-4 py-2 align-items-center">
-            <div class="page-title text-center mb-1">Juniors</div>
-            <div class="row justify-content-center">
+    <!-- Explore Other Pages Footer -->
+        <div class="align-items-center container-fluid pt-xl-5 pb-xl-2 pt-4 pb-0 backg-color">
 
-                <!-- <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/bear.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Bear</h5>
-                            <h6 class="card-subtitle mb-2">(Emmy Knapp)</h6>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/chef.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Chef</h5>
-                            <h6 class="card-subtitle mb-2">(Nora Verner)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/combo.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Combo</h5>
-                            <h6 class="card-subtitle mb-2">(Sage Lewit)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/crunch.JPG" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Crunch</h5>
-                            <h6 class="card-subtitle mb-2">(Lee Ramsey-Code)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/delphi.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Delphi</h5>
-                            <h6 class="card-subtitle mb-2">(Andy FF)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/ebay.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Ebay</h5>
-                            <h6 class="card-subtitle mb-2">(Georgia Stettner)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/evelyn.JPG" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Evelyn</h5>
-                            <h6 class="card-subtitle mb-2">(Evelyn)</h6>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/flip.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Flip</h5>
-                            <h6 class="card-subtitle mb-2">(Juni Cleary)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/hobbes.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Hobbes</h5>
-                            <h6 class="card-subtitle mb-2">(Theresa Provasnik)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/jam.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Jam</h5>
-                            <h6 class="card-subtitle mb-2">(Lucia Stoller)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/katrina.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Katrina</h5>
-                            <h6 class="card-subtitle mb-2">(Katrina Nelson)</h6>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/asap.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">A$AP</h5>
-                            <h6 class="card-subtitle mb-2">(Katy McPartland)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/kelp.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Kelp</h5>
-                            <h6 class="card-subtitle mb-2">(Shreya Shah)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/kiwi.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Kiwi</h5>
-                            <h6 class="card-subtitle mb-2">(Ukiah)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/pebble.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Pebble</h5>
-                            <h6 class="card-subtitle mb-2">(Claire Wang)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/rutabaga.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Rutie</h5>
-                            <h6 class="card-subtitle mb-2">(Cleo Bennett)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/sapphire.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sapphire</h5>
-                            <h6 class="card-subtitle mb-2">(Sydney Fouch)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/sharkboy.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sharkboy</h5>
-                            <h6 class="card-subtitle mb-2">(Hazel Stanfield)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/sophia.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sophia</h5>
-                            <h6 class="card-subtitle mb-2">(Sophia Farrand)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/spud.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Spud</h5>
-                            <h6 class="card-subtitle mb-2">(Isabel Wilder)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/honor.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sully</h5>
-                            <h6 class="card-subtitle mb-2">(Honor Dodd)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/sunny.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sunny</h5>
-                            <h6 class="card-subtitle mb-2">(Paulina Malysa)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/toast.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Toast</h5>
-                            <h6 class="card-subtitle mb-2">(Caroline Ambrose)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/widget.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Widget</h5>
-                            <h6 class="card-subtitle mb-2">(Wil Kirkland)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/yolo.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Yolo</h5>
-                            <h6 class="card-subtitle mb-2">(Emma Casado)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
+            <!-- Lg Cards -->
+                <div class="d-xl-flex d-none row flex-row flex-nowrap justify-content-center">
 
-            </div>
+                    <!-- "Home" Card (L) -->
+                        <div class="col-auto backg-color">
+                            <div class="card more-card" style="width: 11rem; height: 13.2rem;">
+                                <img class="card-img-top" src="images/ho/huddle.jpg" alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title my-card-title">Home</h5>
+                                    <a href="index.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text">Head over to our home page!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- "About" Card (L) -->
+                        <div class="col-auto backg-color">
+                            <div class="card more-card" style="width: 11rem; height: 13.2rem;">
+                                <img class="card-img-top" src="images/ho/waltz.jpg" alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title my-card-title">About</h5>
+                                    <a href="About.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text">Learn more about the Greenshirts!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- "Practice" Card (L) -->
+                        <div class="col-auto backg-color">
+                            <div class="card more-card" style="width: 11rem; height: 13.2rem;">
+                                <img class="card-img-top" src="images/ho/practice.jpg" alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title my-card-title">Practice</h5>
+                                    <a href="Practice.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text">More information on practices!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- "Support Us" Card (L) -->
+                        <div class="col-auto backg-color">
+                            <div class="card more-card" style="width: 11rem; height: 13.2rem;">
+                                <img class="card-img-top" src="images/ho/hug.jpg" alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h6 class="card-title my-card-title">Support Us</h6>
+                                    <a href="Support.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text">Learn how you can support the team!</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    <!-- "Contact" Card (L) -->
+                        <div class="col-auto backg-color">
+                            <div class="card more-card" style="width: 11rem; height: 13.2rem;">
+                                <img class="card-img-top" src="images/ho/cute.jpg" alt="Card image cap" loading="lazy">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title my-card-title">Contact</h5>
+                                    <a href="Contact.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text">Contact us and find us on social media!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- "Photos" Card (L) -->
+                        <div class="col-auto backg-color">
+                            <div class="card more-card" style="width: 11rem; height: 13.2rem;">
+                                <img class="card-img-top" src="images/ho/action.jpg" alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title my-card-title">Photos</h5>
+                                    <a href="Photos.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text">See more shots of the Greenshirts!</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                
+            <!-- Sm Cards -->
+                <div class="d-xl-none d-flex row flex-row flex-nowrap px-4 py-2 justify-content-md-center justify-content-start overflow-auto">
+
+                    <!-- "Home" Card (S) -->
+                        <div class="col-auto mx-md-2 mx-1 px-0">
+                            <div class="card more-card" style="width: 8rem; height: 10.5rem;">
+                                <img class="card-img-top" src="images/ho/huddle.jpg" alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title my-card-title-sm">Home</h5>
+                                    <a href="index.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text-sm">Head over to our home page!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- "About" Card (S) -->
+                        <div class="col-auto mx-md-2 mx-1 px-0">
+                            <div class="card more-card" style="width: 8rem; height: 10.5rem;">
+                                <img class="card-img-top" src="images/ho/waltz.jpg" alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title my-card-title-sm">About</h5>
+                                    <a href="About.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text-sm">Learn more about the Greenshirts!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- "Practice" Card (S) -->
+                        <div class="col-auto mx-md-2 mx-1 px-0 b">
+                            <div class="card more-card" style="width: 8rem; height: 10.5rem;">
+                                <img class="card-img-top" src="images/ho/practice.jpg" alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title my-card-title-sm">Practice</h5>
+                                    <a href="Practice.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text-sm">More information on practices!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- "Support Us" Card (S) -->
+                        <div class="col-auto mx-md-2 mx-1 px-0">
+                            <div class="card more-card" style="width: 8rem; height: 10.5rem;">
+                                <img class="card-img-top" src="images/ho/hug.jpg" alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h6 class="card-title my-card-title-sm">Support Us</h6>
+                                    <a href="Support.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text-sm">Learn how you can support the team!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- "Contact" Card (S) -->
+                        <div class="col-auto mx-md-2 mx-1 px-0">
+                            <div class="card more-card" style="width: 8rem; height: 10.5rem;">
+                                <img class="card-img-top" src="images/ho/cute.jpg" alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title my-card-title-sm">Contact</h5>
+                                    <a href="Contact.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text-sm">Contact us & find us on social media!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- "Photos" Card (S) -->
+                        <div class="col-auto mx-md-2 mx-1 px-0">
+                            <div class="card more-card" style="width: 8rem; height: 10.5rem;">
+                                <img class="card-img-top" src="images/ho/action.jpg" alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title my-card-title-sm">Photos</h5>
+                                    <a href="Photos.html" class="stretched-link"></a>
+                                    <p class="card-text my-card-text-sm">See more shots of the Greenshirts!</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                
         </div>
 
+    <!-- Load in the Footer -->
+        <div id="footer"></div>
 
-        <div class="container py-lg-4 py-2 align-items-center">
-            <div class="page-title text-center mb-1">Honorary Greens</div>
-            <div class="row justify-content-center">
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/rooster.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Rooster</h5>
-                            <h6 class="card-subtitle mb-2">(Dawg)</h6>
-                            <!-- <p class="card-text"></p> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/hanna.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Hanna</h5>
-                            <h6 class="card-subtitle mb-2">(Sweet Baby)</h6>
-                            <!-- <p class="card-text"></p> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/albertnbenny.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Albert & Benny</h5>
-                            <h6 class="card-subtitle mb-2">(Collective Children)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/baby.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Baby</h5>
-                            <h6 class="card-subtitle mb-2">(Where is he)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/soupnoodle.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Soup Noodle</h5>
-                            <h6 class="card-subtitle mb-2">(Yum!!)</h6>
-                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto mb-3">
-                    <div class="card ros-card" style="width: 12rem;">
-                        <img class="card-img-top" src="images/roster/wasabinpebbles.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h6 class="card-title">Wasabi & Pebbles</h6>
-                            <h7 class="card-subtitle mb-2">(Queer Role Models)</h7>
-                             
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-        <!-- More Cards -->
-    <div class="align-items-center container-fluid pt-xl-5 pb-xl-2 pt-4 pb-0 backg-color">
-        <!-- Lg Cards -->
-        <div class="d-xl-flex d-none row flex-row flex-nowrap justify-content-center">
-            <div class="col-auto backg-color">
-                <div class="card more-card" style="width: 11rem; height: 13.2rem;">
-                    <img class="card-img-top" src="images/ho/huddle.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h5 class="card-title my-card-title">Home</h5>
-                        <a href="index.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text">Head over to our home page!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-auto backg-color">
-                <div class="card more-card" style="width: 11rem; height: 13.2rem;">
-                    <img class="card-img-top" src="images/ho/waltz.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h5 class="card-title my-card-title">About</h5>
-                        <a href="About.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text">Learn more about the Greenshirts!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-auto backg-color">
-                <div class="card more-card" style="width: 11rem; height: 13.2rem;">
-                    <img class="card-img-top" src="images/ho/practice.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h5 class="card-title my-card-title">Practice</h5>
-                        <a href="Practice.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text">More information on practices!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-auto backg-color">
-                <div class="card more-card" style="width: 11rem; height: 13.2rem;">
-                    <img class="card-img-top" src="images/ho/hug.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h6 class="card-title my-card-title">Support Us</h6>
-                        <a href="Support.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text">Learn how you can support the team!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-auto backg-color">
-                <div class="card more-card" style="width: 11rem; height: 13.2rem;">
-                    <img class="card-img-top" src="images/ho/cute.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h5 class="card-title my-card-title">Contact</h5>
-                        <a href="Contact.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text">Contact us and find us on social media!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-auto backg-color">
-                <div class="card more-card" style="width: 11rem; height: 13.2rem;">
-                    <img class="card-img-top" src="images/ho/action.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h5 class="card-title my-card-title">Photos</h5>
-                        <a href="Photos.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text">See more shots of the Greenshirts!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Sm Cards -->
-        <div class="d-xl-none d-flex row flex-row flex-nowrap px-4 py-2 justify-content-md-center justify-content-start overflow-auto">
-            <!-- <div class="d-flex flex-row flex-nowrap"></div> -->
-            <div class="col-auto mx-md-2 mx-1 px-0">
-                <div class="card more-card" style="width: 8rem; height: 10.5rem;">
-                    <img class="card-img-top" src="images/ho/huddle.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h5 class="card-title my-card-title-sm">Home</h5>
-                        <a href="index.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text-sm">Head over to our home page!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-auto mx-md-2 mx-1 px-0">
-                <div class="card more-card" style="width: 8rem; height: 10.5rem;">
-                    <img class="card-img-top" src="images/ho/waltz.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h5 class="card-title my-card-title-sm">About</h5>
-                        <a href="About.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text-sm">Learn more about the Greenshirts!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-auto mx-md-2 mx-1 px-0 b">
-                <div class="card more-card" style="width: 8rem; height: 10.5rem;">
-                    <img class="card-img-top" src="images/ho/practice.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h5 class="card-title my-card-title-sm">Practice</h5>
-                        <a href="Practice.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text-sm">More information on practices!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-auto mx-md-2 mx-1 px-0">
-                <div class="card more-card" style="width: 8rem; height: 10.5rem;">
-                    <img class="card-img-top" src="images/ho/hug.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h6 class="card-title my-card-title-sm">Support Us</h6>
-                        <a href="Support.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text-sm">Learn how you can support the team!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-auto mx-md-2 mx-1 px-0">
-                <div class="card more-card" style="width: 8rem; height: 10.5rem;">
-                    <img class="card-img-top" src="images/ho/cute.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h5 class="card-title my-card-title-sm">Contact</h5>
-                        <a href="Contact.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text-sm">Contact us & find us on social media!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-auto mx-md-2 mx-1 px-0">
-                <div class="card more-card" style="width: 8rem; height: 10.5rem;">
-                    <img class="card-img-top" src="images/ho/action.jpg" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h5 class="card-title my-card-title-sm">Photos</h5>
-                        <a href="Photos.html" class="stretched-link"></a>
-                        <p class="card-text my-card-text-sm">See more shots of the Greenshirts!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- <footer> -->
-    <!-- footer (mobile)-->
-    <!-- <div class="footer-mobile d-lg-none d-flex">
-        Claremont Greenshirts 2023
-    </div> -->
-    <!-- footer (desktop)-->
-    <!-- <div class="footer-desktop d-lg-flex d-none">
-        Claremont Greenshirts 2023
-    </div> -->
-    <!-- Sparkles & Footer -->
-    <footer class="position-relative">
-        <div class="d-md-block d-none"><img class="img-fluid" src="images/stars4.PNG" alt=""></div>
-        <div class="d-md-none d-block"><img class="img-fluid" src="images/stars5.PNG" alt=""></div>
-        <div class="d-sm-block d-none ps-lg-2 color-8 bottom-left">Claremont Greenshirts Ultimate Frisbee - 2025</div>
-        <div class="d-sm-none d-block color-8 bottom-left-2">Claremont Greenshirts Ultimate Frisbee - 2025</div>
-    </footer> 
-    <!-- </footer> -->
 </body>
-
 </html>

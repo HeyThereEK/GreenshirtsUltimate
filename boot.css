@@ -55,6 +55,20 @@
     color: rgb(40, 62, 81);
 }
 
+.page-active-color {
+  color: rgb(137, 180, 203) !important;
+}
+
+.page-about .nav-link[href="About.html"],
+.page-practice .nav-link[href="Practice.html"],
+.page-roster .nav-link[href="Roster.html"],
+.page-support .nav-link[href="Support.html"],
+.page-contact .nav-link[href="Contact.html"],
+.page-photos .nav-link[href="Photos.html"],
+.page-index .nav-link[href="index.html"] {
+  color: rgb(137, 180, 203); 
+}
+
 nav .navbar-nav li a{
     /* color: aliceblue; */
     color: rgb(199, 213, 225);
@@ -66,8 +80,6 @@ nav .navbar-nav li a.current {
 }
 
 .navbar a:hover {
-    /* color: rgb(12, 31, 27) !important; */
-    /* color: rgb(122, 161, 189) !important; */
     color: rgb(94, 135, 161) !important;
 }
 
