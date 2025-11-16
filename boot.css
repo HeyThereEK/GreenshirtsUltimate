@@ -839,3 +839,7 @@ footer {
     margin-right: 0;
     margin-left: 0;
 }
+
+.card-title.d-flex { justify-content: space-between; gap: 0.5rem; }
+.card-title .player-name { flex: 1 1 auto; min-width: 0; /* allow wrapping/truncation */ }
+.card-title .player-number { flex: 0 0 auto; white-space: nowrap; color: inherit; opacity: .9; }
