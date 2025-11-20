@@ -23,7 +23,7 @@
         </div>
 
     <!-- Main Page Picture -->
-        <div>
+        <div class="blur-load" style="background-image: url(images/new_main-small.jpg);">
             <!-- <link rel="preload" as="image" href="images/mainthin.jpeg"> -->
             <img src="images/new_main.jpg" class="img-fluid" alt="Greenshirts team picture" loading="eager">
         </div>
@@ -83,7 +83,7 @@
     <!-- Lower text about being student-run -->
         <div class="body-color py-lg-5 py-4">
             <div class="main-box px-5 py-lg-5 py-md-4 py-3 body-color color-9">
-                <div class="link-color">&emsp;&emsp;We are currently entirely <strong>student-run!</strong> Greens leadership plans practice, gets us to tournaments, and so much more (we ♡ you). If you're located in the Claremont/LA area and are interested in potentially becoming a Greenshirts coach, please reach out to us!<br><br>&emsp;&emsp;You can email us at <a class="break-this" href="claremontgreenshirts@gmail.com">claremontgreenshirts@gmail.com</a> or dm us on Instagram <a class="break-this" href="https://www.instagram.com/therealgreenshirts/?hl=en">@therealgreenshirts</a>.</div>
+                <div class="link-color">&emsp;&emsp;We are currently entirely <strong>student-run!</strong> Greens leadership plans practice, gets us to tournaments, and so much more (we ♡ you). If you're located in the Claremont/LA area and are interested in potentially becoming a Greenshirts coach, please reach out to us!<br><br>&emsp;&emsp;You can email us at <a class="break-this" href="mailto:claremontgreenshirts@gmail.com">claremontgreenshirts@gmail.com</a> or dm us on Instagram <a class="break-this" href="https://www.instagram.com/therealgreenshirts/?hl=en">@therealgreenshirts</a>.</div>
             </div>
         </div>
 
@@ -247,5 +247,22 @@
     <!-- Page Footer -->
         <div id="footer"></div>
 
+    <script>
+        const blurDivs = document.querySelectorAll('.blur-load');
+        blurDivs.forEach(div => {
+            const img = div.querySelector('img');
+
+            function loaded() {
+                div.classList.add('loaded');
+            }
+
+            if (img.complete) {
+                loaded();
+            } else {
+                img.addEventListener('load', loaded);
+            }
+        });
+    </script>
+    
 </body>
 </html>

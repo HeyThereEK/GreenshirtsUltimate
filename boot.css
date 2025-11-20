@@ -69,6 +69,10 @@
   color: rgb(137, 180, 203); 
 }
 
+.nav {
+    position: sticky;
+}
+
 nav .navbar-nav li a{
     /* color: aliceblue; */
     color: rgb(199, 213, 225);
@@ -846,4 +850,18 @@ footer {
 
 .og-dinos {
     width: 50%;
+}
+
+.blur-load {
+    background-size: cover;
+    background-position: center;
+}
+
+.blur-load.loaded > img {
+    opacity: 1;
+}
+
+.blur-load > img {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
 }
